@@ -8,8 +8,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const Header = () => {
   return (
     <div>
-    <Navbar expand="xl" className="bg-body-tertiary">
-    <Container>
+    <Navbar expand="lg" className="bg-body-tertiary">
+    <div className='container-fluid'>
       <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -19,7 +19,7 @@ const Header = () => {
           <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
-    </Container>
+    </div>
   </Navbar>
   </div>
   );
